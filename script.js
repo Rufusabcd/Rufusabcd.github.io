@@ -31,6 +31,7 @@ $(document).ready(function() {
     $('.trigger').click(function() {
         getQuote();
     })
+    $.ajaxSetup({ cache: false });
 });
 
 
